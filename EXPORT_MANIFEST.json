@@ -1,0 +1,11 @@
+{
+  "client": "ryk",
+  "exportedAt": "2026-08-04T16:25:20.669Z",
+  "version": "3.0.0",
+  "stats": {
+    "filesCount": 6,
+    "assetsCount": 3,
+    "dependencies": 8,
+    "devDependencies": 7
+  }
+}
