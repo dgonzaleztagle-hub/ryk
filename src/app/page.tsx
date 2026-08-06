@@ -374,7 +374,12 @@ export default function RYKConstruccionesPage() {
           {/* Logo RYK Construcciones Oficial */}
           <Magnetic>
              <a href="#hero" className="flex items-center cursor-pointer group">
-                <RykOfficialLogo variant="light" className="h-9" />
+                <img 
+                  src="/logo_oficial.jpeg" 
+                  onError={(e) => { e.currentTarget.src = "/prospectos/ryk/logo_oficial.jpeg"; }}
+                  alt="RYK Construcciones Logo Oficial" 
+                  className="h-10 w-auto object-contain bg-white/90 p-1 rounded-sm shadow-md transition-transform duration-300 group-hover:scale-105" 
+                />
              </a>
           </Magnetic>
           
