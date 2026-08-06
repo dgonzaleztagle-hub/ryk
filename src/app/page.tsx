@@ -27,6 +27,7 @@ import { GrainTexture } from '@/components/premium/GrainTexture';
 import { ClipPathReveal } from '@/components/premium/ClipPathReveal';
 import { Magnetic } from '@/components/premium/Magnetic';
 import { SpotlightCard } from '@/components/premium/SpotlightCard';
+import RykOfficialLogo from './components/RykOfficialLogo';
 
 // -------------------------------------------------------------
 // COMPONENTE: CAD Grid Background (RYK Dark / Gold Mode + Mouse Tracker)
@@ -370,16 +371,10 @@ export default function RYKConstruccionesPage() {
       <nav className="fixed w-full top-0 z-50 bg-[#0F172A]/90 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
           
-          {/* Logo RYK Construcciones */}
+          {/* Logo RYK Construcciones Oficial */}
           <Magnetic>
-             <a href="#hero" className="flex items-center gap-3 cursor-pointer group">
-                <div className="w-10 h-10 border-2 border-[#F97316] flex items-center justify-center font-black text-sm text-[#F97316] rounded-sm group-hover:bg-[#F97316] group-hover:text-[#0B0D0E] transition-all duration-300 shadow-md">
-                  RYK
-                </div>
-                <div className="flex flex-col text-left">
-                  <span className="text-base font-black tracking-[0.2em] text-white leading-none uppercase">RYK</span>
-                  <span className="text-xs font-bold tracking-[0.25em] text-[#F97316] leading-none uppercase mt-1">CONSTRUCCIONES</span>
-                </div>
+             <a href="#hero" className="flex items-center cursor-pointer group">
+                <RykOfficialLogo variant="light" className="h-9" />
              </a>
           </Magnetic>
           
