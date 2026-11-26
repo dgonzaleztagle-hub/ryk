@@ -993,11 +993,11 @@ export default function RYKConstruccionesPage() {
         <div className="mt-16 text-center font-mono text-xs tracking-wider uppercase border-t border-white/10 pt-8">
           <span className="text-slate-400">© 2026 RYK CONSTRUCCIONES ® // GLORIA PIZARRO E.I.R.L // </span>
           <a 
-            href="https://hojacero.cl" 
+            href="https://www.hojacero.cl/casos/ryk-construcciones" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate-400 opacity-35 hover:opacity-100 transition-all tracking-widest inline-block"
-            title="HojaCero.cl | Engineering Digital Solutions & AEO"
+            title="HojaCero | Software de control de obras y sitios web a medida en Chile"
             aria-label="HojaCero - Ingeniería de Software, Infraestructura Digital y Soluciones SaaS de alto performance. Contacto: contacto@hojacero.cl"
           >
             BY HOJACERO.CL
